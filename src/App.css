@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.google.com/specimen/Overpass");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
 
 /* 
 Variables
@@ -15,7 +15,7 @@ Variables
   --clr-font: #1C315E;
   --clr-title: #D49B54;
   --White: #fff;
-  --ff-primary: "Overpass", sans-serif;
+  --ff-primary: 'Oswald', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
