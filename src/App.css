@@ -40,7 +40,6 @@ body {
   background: var(--clr-background);
   color: var(--clr-font);
   line-height: 1.25;
-  font-size: 0.875rem;
 }
 
 ul {
@@ -54,9 +53,4 @@ a {
 img {
   width: 100%;
   display: block;
-}
-
-/* global font size configuration */
-p {
-  font-size: 15px;
 }
