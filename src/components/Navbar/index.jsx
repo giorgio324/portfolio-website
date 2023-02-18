@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './styles.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const pageLocation = useLocation();
+
+  // when page changes i want to close mobile navigation
+  useEffect(() => {
+    setIsNavOpen(false);
+  }, [pageLocation]);
 
   // this adds nav-open when nav opens so overflow content will not be shown
   useEffect(() => {
