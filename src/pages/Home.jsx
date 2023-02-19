@@ -46,8 +46,23 @@ const Home = () => {
           <h3 className='description'>{finished ? description : ''}</h3>
         </div>
       </div>
-      <div className='about-me-container'>
-        <h2>skills</h2>
+      <div className='skills-container'>
+        <h1>Skills</h1>
+        <div className='skills-front-container'>
+          <div className='front-title'>
+            <h2>Front-End</h2>
+            <h3>languages and tools that i use for Front-End</h3>
+          </div>
+          <p>ReactJS ,JavaScript ,HTML ,CSS, Bootstrap</p>
+        </div>
+
+        <div className='skills-languages-container'>
+          <div className='languages-title'>
+            <h2>Languages</h2>
+            <h3>programming languages that i have used</h3>
+          </div>
+          <p>JavaScrit, Python, Kotlin</p>
+        </div>
       </div>
     </div>
   );
