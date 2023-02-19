@@ -1,0 +1,51 @@
+.experience {
+ min-height: calc(100vh - 203px);
+}
+
+.first-project {
+ color: var(--White);
+ background: var(--clr-primary);
+ border-radius: var(--radius);
+ padding: 2px 1rem;
+ font-size: 16px;
+ margin-left: 1.5rem;
+ transition: var(--transition);
+}
+
+.first-project:hover {
+ color: var(--clr-primary);
+ background: var(--White);
+ border: 1px solid var(--clr-primary);
+}
+
+.vertical-timeline-element--project .vertical-timeline-element-date {
+ padding: 2px 0 !important;
+}
+
+.first-project-text {
+ margin: 1em 0px 1em !important;
+}
+
+.timeline-title {
+ text-align: center;
+ font-size: 55px;
+ padding: 2.5rem 0;
+ min-height: 68.75px;
+ animation: fadeIn 1s forwards;
+}
+
+@media screen and (min-width:1170px) {
+ .vertical-timeline-element--project .vertical-timeline-element-date {
+  padding: 0.8em 0 !important;
+ }
+
+ .first-project {
+  margin-left: 0 !important;
+ }
+
+ .timeline-title {
+  text-align: center;
+  font-size: 65px;
+  min-height: 81.25px;
+ }
+}
