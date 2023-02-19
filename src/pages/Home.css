@@ -1,0 +1,51 @@
+.main-title {
+ min-height: calc(100vh - 73px);
+ background: var(--clr-primary);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ padding: 0 1rem;
+}
+
+.name-container {
+ margin-bottom: 65px;
+}
+
+.animated-text {
+ text-align: center;
+ color: #54B435;
+ font-size: 48px;
+ min-height: 60px;
+}
+
+.name {
+ padding: 1rem 0;
+ font-size: 42px;
+ animation: fadeIn 2.5s forwards;
+ animation-delay: 1.8s;
+ opacity: 0;
+ word-break: normal;
+ min-height: 85px;
+ text-align: center;
+}
+
+.description {
+ width: 100%;
+ margin-bottom: 55px;
+ animation: fadeIn 5s forwards;
+ word-break: normal;
+ text-align: center;
+ min-height: 47px;
+}
+
+@keyframes fadeIn {
+ 0% {
+  opacity: 0;
+ }
+
+ 100% {
+  opacity: 1;
+ }
+}

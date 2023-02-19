@@ -1,10 +1,10 @@
 .footer-container {
- height: 110px;
  background: var(--clr-primary);
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ padding: 2rem 0;
 }
 
 .footer {
