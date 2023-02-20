@@ -24,7 +24,6 @@ const Home = () => {
       setWorldText(worldTextFinal.slice(0, currentWorldIndex));
       currentWorldIndex++;
       if (currentWorldIndex > worldTextFinal.length) {
-        setFinished(true);
         clearInterval(worldInterval);
       }
     }, 200);
