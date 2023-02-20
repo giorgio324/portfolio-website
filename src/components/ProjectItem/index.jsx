@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-const ProjectItem = ({ image, name }) => {
+const ProjectItem = ({ image, name, id }) => {
   return (
     <div className='project-item'>
       <div

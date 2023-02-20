@@ -1,18 +1,21 @@
 import React from 'react';
 import ProjectItem from '../components/ProjectItem';
-import todoImg from '../assets/images/todo.PNG';
+import { ProjectList } from '../data/data';
 const Projects = () => {
   return (
     <div className='projects'>
       <h1 className='projects-title'>Take A Look At My Projects</h1>
       <div className='projects-list'>
-        <ProjectItem name={'TODO'} image={todoImg} />
-        <ProjectItem name={'test'} image={todoImg} />
-        <ProjectItem name={'test'} image={todoImg} />
-        <ProjectItem name={'test'} image={todoImg} />
-        <ProjectItem name={'test'} image={todoImg} />
-        <ProjectItem name={'test'} image={todoImg} />
-        <ProjectItem name={'test'} image={todoImg} />
+        {ProjectList.map((project, index) => {
+          return (
+            <ProjectItem
+              image={project.image}
+              name={project.name}
+              key={index}
+              id={index}
+            />
+          );
+        })}
       </div>
     </div>
   );
