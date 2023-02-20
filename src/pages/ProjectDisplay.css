@@ -2,7 +2,6 @@
  margin: 0 auto;
  padding: 0 1rem;
  min-height: calc(100vh - 73px);
- color: var(--clr-primary);
 }
 
 .project h1 {
@@ -53,7 +52,7 @@
 
 .project-icon {
  font-size: 35px;
- color: var(--clr-primary);
+ color: var(--clr-font);
  cursor: pointer;
  transition: var(--transition);
  margin: 2rem 0;

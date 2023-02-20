@@ -7,8 +7,6 @@ const Home = () => {
   const helloTextFinal = '< Hello';
   const worldTextFinal = 'World >';
   const name = 'My Name Is Giorgi';
-  const description =
-    'A Front End developer with a passion for learning and creating MORE';
   useEffect(() => {
     let currentHelloIndex = 0;
     let currentWorldIndex = 0;
@@ -42,7 +40,9 @@ const Home = () => {
           <h1 className='animated-text'>{worldText}</h1>
         </div>
         <div className='description-container'>
-          <h3 className='description'>{finished ? description : ''}</h3>
+          <h3 className={finished ? 'show description' : 'hide '}>
+            A Front End developer with a passion for learning and creating MORE
+          </h3>
         </div>
       </div>
       <div className='skills-container'>
