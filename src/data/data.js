@@ -12,6 +12,7 @@ export const ProjectList = [
     tech: 'ReactJS, CSS',
     github: 'https://github.com/giorgio324/todoapp',
     netlify: 'https://todoapp-frontend.netlify.app/',
+    description: 'Todo app with some extra functionalities and animations',
   },
   {
     name: 'Dashboard',
@@ -19,6 +20,8 @@ export const ProjectList = [
     tech: 'ReactJS, CSS',
     github: 'https://github.com/giorgio324/dashboard-frontendmentor',
     netlify: 'https://dashboard-react-frontend.netlify.app/',
+    description:
+      'Simple dashboard, which displays users time spent on activities.',
   },
   {
     name: 'Advice Generator',
@@ -26,6 +29,8 @@ export const ProjectList = [
     tech: 'ReactJS, CSS',
     github: 'https://github.com/giorgio324/random-advice',
     netlify: 'https://react-advice-generator-frontend.netlify.app/',
+    description:
+      'After learning basics of React I decided to build a project that would fetch data from API. this app generates a random advice when you click on a button',
   },
   {
     name: 'Multipage Form',
@@ -33,6 +38,8 @@ export const ProjectList = [
     tech: 'JavaScript, HTML, CSS',
     github: 'https://github.com/giorgio324/multipage-form',
     netlify: 'https://multipage-form-frontend.netlify.app/',
+    description:
+      "Multipage Form, Which saves user's data in variables and displays it at the final page. it also has basic input validation",
   },
   {
     name: 'Website Development',
@@ -40,6 +47,7 @@ export const ProjectList = [
     tech: 'HTML, CSS, Bootstrap',
     github: 'https://github.com/giorgio324/bootstrap-project',
     netlify: 'https://software-development-p.netlify.app/',
+    description: 'used Boostrap5 for first time and built static website',
   },
   {
     name: 'DevelopIT',
@@ -47,6 +55,8 @@ export const ProjectList = [
     tech: 'JavaScript, HTML, CSS',
     github: 'https://github.com/giorgio324/developIT',
     netlify: 'https://develop-it.netlify.app/',
+    description:
+      'Afther i learned basics of javaScript and DOM i wanted to add some functionality to my website',
   },
   {
     name: 'Awesomecamp',
@@ -54,5 +64,6 @@ export const ProjectList = [
     tech: 'HTML, CSS',
     github: 'https://github.com/giorgio324/Awesomecamp',
     netlify: 'https://awesomecamp.netlify.app/',
+    description: 'The first website i created',
   },
 ];

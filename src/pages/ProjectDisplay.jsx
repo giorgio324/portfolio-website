@@ -16,7 +16,7 @@ const ProjectDisplay = () => {
         <h3>{project.tech}</h3>
       </div>
       <div className='project-description'>
-        <h3>this is</h3>
+        <h3>{project.description}</h3>
       </div>
       <div className='icons-container'>
         <a

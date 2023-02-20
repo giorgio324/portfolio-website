@@ -1,5 +1,6 @@
 .experience {
  min-height: calc(100vh - 203px);
+ color: var(--crl-font) !important;
 }
 
 .first-project {
