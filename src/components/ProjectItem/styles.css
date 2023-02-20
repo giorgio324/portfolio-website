@@ -24,6 +24,7 @@
 
 .projects-list {
  width: 100%;
+
 }
 
 .project-item {
@@ -33,6 +34,7 @@
  text-align: center;
  margin: 35px;
  border-radius: 15px;
+ transition: var(--transition);
 }
 
 /* MENU ITEM STYLING */
@@ -58,20 +60,21 @@
  margin-top: 12px;
 }
 
+
+
 @media screen and (min-width: 1250px) {
  .project-item {
   width: 300px !important;
-  height: 300px !important;
+  height: 280px !important;
+ }
+
+ .project-item h1 {
+  font-size: 24px;
+  margin-top: 24px;
  }
 }
 
-@media screen and (min-width: 1100px) {
- .projects-list {
-  grid-template-columns: repeat(3, 1fr) !important;
-  margin: 0 3rem;
-  place-items: center;
- }
-}
+
 
 @media screen and (min-width: 800px) {
  .projects-list {
@@ -81,5 +84,21 @@
  .project-item {
   width: 270px;
   height: 270px;
+ }
+}
+
+@media screen and (min-width: 1100px) {
+ .projects-list {
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 3rem;
+  place-items: center;
+ }
+}
+
+@media screen and (min-width: 1520px) {
+ .projects-list {
+  grid-template-columns: repeat(4, 1fr) !important;
+  margin: 0 3rem;
+  place-items: center;
  }
 }

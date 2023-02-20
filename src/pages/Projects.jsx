@@ -4,7 +4,7 @@ import { ProjectList } from '../data/data';
 const Projects = () => {
   return (
     <div className='projects'>
-      <h1 className='projects-title'>Take A Look At My Projects</h1>
+      <h1 className='projects-title'>Take A Look At Some of My Projects</h1>
       <div className='projects-list'>
         {ProjectList.map((project, index) => {
           return (
