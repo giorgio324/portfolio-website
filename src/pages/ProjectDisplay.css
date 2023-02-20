@@ -16,7 +16,6 @@
  width: 100%;
  object-fit: cover;
  border-radius: var(--radius);
- border: 1px solid var(--clr-primary);
 }
 
 .tech-container {
