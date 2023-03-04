@@ -19,7 +19,19 @@ const Navbar = () => {
       document.body.classList.remove('nav-open');
     }
   }, [isNavOpen]);
-
+  // closing navigation after screen reaches 620px
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 620) {
+        setIsNavOpen(false);
+        document.body.classList.remove('nav-open');
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <div className='navbar-container'>
       <nav className={isNavOpen ? 'navbar open' : 'navbar'}>
