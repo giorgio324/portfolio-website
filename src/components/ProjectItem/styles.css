@@ -20,12 +20,11 @@
  display: grid;
  grid-template-columns: 1fr;
  place-items: center;
-}
-
-.projects-list {
  width: 100%;
-
+ padding-top: 1rem;
+ padding-bottom: 2rem;
 }
+
 
 .project-item {
  width: 250px;

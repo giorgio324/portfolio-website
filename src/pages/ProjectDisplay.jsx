@@ -23,17 +23,19 @@ const ProjectDisplay = () => {
           href={project.github}
           target='_blank'
           rel='noopener noreferrer'
-          className='project-icon'
+          className='project-icon labeled-link'
         >
           <BsGithub />
+          <span>Code</span>
         </a>
         <a
           href={project.netlify}
           target='_blank'
           rel='noopener noreferrer'
-          className='project-icon'
+          className='project-icon labeled-link'
         >
           <SiNetlify />
+          <span>Live</span>
         </a>
       </div>
     </div>

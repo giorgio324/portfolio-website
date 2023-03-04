@@ -5,6 +5,7 @@ import image4 from '../assets/images/multipageForm.PNG';
 import image5 from '../assets/images/bootstrap.PNG';
 import image6 from '../assets/images/developIT.PNG';
 import image7 from '../assets/images/awesomecamp.PNG';
+import image8 from '../assets/images/styled-component.PNG';
 export const ProjectList = [
   {
     name: 'TODO',
@@ -65,5 +66,14 @@ export const ProjectList = [
     github: 'https://github.com/giorgio324/Awesomecamp',
     netlify: 'https://awesomecamp.netlify.app/',
     description: 'The first website i created',
+  },
+  {
+    name: 'Huddle',
+    image: image8,
+    tech: 'ReactJS, Styled Components',
+    github: 'https://github.com/giorgio324/styled-components-mini-project',
+    netlify: 'https://huddle-styled-component.netlify.app/',
+    description:
+      'In this project i used styled components for the first time and build a static single page website',
   },
 ];
