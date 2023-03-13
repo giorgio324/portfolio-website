@@ -6,6 +6,7 @@ import image5 from '../assets/images/bootstrap.PNG';
 import image6 from '../assets/images/developIT.PNG';
 import image7 from '../assets/images/awesomecamp.PNG';
 import image8 from '../assets/images/styled-component.PNG';
+import image9 from '../assets/images/githubSearch.PNG';
 export const ProjectList = [
   {
     name: 'TODO',
@@ -48,7 +49,7 @@ export const ProjectList = [
     tech: 'HTML, CSS, Bootstrap',
     github: 'https://github.com/giorgio324/bootstrap-project',
     netlify: 'https://software-development-p.netlify.app/',
-    description: 'used Boostrap5 for first time and built static website',
+    description: 'used Boostrap5 for first time and built a static website',
   },
   {
     name: 'DevelopIT',
@@ -57,7 +58,7 @@ export const ProjectList = [
     github: 'https://github.com/giorgio324/developIT',
     netlify: 'https://develop-it.netlify.app/',
     description:
-      'Afther i learned basics of javaScript and DOM i wanted to add some functionality to my website',
+      'After I learned basics of javaScript and DOM I wanted to add some functionality to my website',
   },
   {
     name: 'Awesomecamp',
@@ -65,7 +66,7 @@ export const ProjectList = [
     tech: 'HTML, CSS',
     github: 'https://github.com/giorgio324/Awesomecamp',
     netlify: 'https://awesomecamp.netlify.app/',
-    description: 'The first website i created',
+    description: 'The first website I created',
   },
   {
     name: 'Huddle',
@@ -74,6 +75,15 @@ export const ProjectList = [
     github: 'https://github.com/giorgio324/styled-components-mini-project',
     netlify: 'https://huddle-styled-component.netlify.app/',
     description:
-      'In this project i used styled components for the first time and build a static single page website',
+      'In this project I used styled components for the first time and build a static single page website',
+  },
+  {
+    name: 'Github User Search',
+    image: image9,
+    tech: 'ReactJS, Styled Components',
+    github: 'https://github.com/giorgio324/github-user-search',
+    netlify: 'https://search-github-user-frontend.netlify.app/',
+    description:
+      'made a github user search app with login functionality, it uses github api to get data and display it to the user, this project also has a dark mode setting',
   },
 ];

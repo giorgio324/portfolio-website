@@ -10,7 +10,9 @@ const ProjectDisplay = () => {
   return (
     <div className='project'>
       <h1>{project.name}</h1>
-      <img src={project.image} alt='' />
+      <div className='project-img-wrapper'>
+        <img src={project.image} alt='' />
+      </div>
       <div className='tech-container'>
         <h2>Used Tech: </h2>
         <h3>{project.tech}</h3>
