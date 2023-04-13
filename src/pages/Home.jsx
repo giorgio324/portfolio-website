@@ -52,15 +52,18 @@ const Home = () => {
             <h2>Front-End</h2>
             <h3>languages and tools that i use for Front-End</h3>
           </div>
-          <p>ReactJS, JavaScript, HTML, CSS, Bootstrap, Styled Components</p>
+          <p>
+            ReactJS,Redux Toolkit, JavaScript, HTML, CSS, Bootstrap, Styled
+            Components, TailwindCss, Vite
+          </p>
         </div>
 
         <div className='skills-languages-container'>
           <div className='languages-title'>
             <h2>Languages</h2>
-            <h3>programming languages that i have used</h3>
+            <h3>programming languages that i have used also</h3>
           </div>
-          <p>JavaScrit, Python, Kotlin</p>
+          <p>Python, Kotlin, C#</p>
         </div>
       </div>
     </div>

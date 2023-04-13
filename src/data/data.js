@@ -7,7 +7,17 @@ import image6 from '../assets/images/developIT.PNG';
 import image7 from '../assets/images/awesomecamp.PNG';
 import image8 from '../assets/images/styled-component.PNG';
 import image9 from '../assets/images/githubSearch.PNG';
+import image10 from '../assets/images/jadoo.PNG';
 export const ProjectList = [
+  {
+    name: 'Github User Search',
+    image: image9,
+    tech: 'ReactJS, Styled Components, API',
+    github: 'https://github.com/giorgio324/github-user-search',
+    netlify: 'https://search-github-user-frontend.netlify.app/',
+    description:
+      'made a github user search app with login functionality, it uses github api to get data and display it to the user, this project also has a dark mode setting',
+  },
   {
     name: 'TODO',
     image: image1,
@@ -15,6 +25,14 @@ export const ProjectList = [
     github: 'https://github.com/giorgio324/todoapp',
     netlify: 'https://todoapp-frontend.netlify.app/',
     description: 'Todo app with some extra functionalities and animations',
+  },
+  {
+    name: 'Jadoo',
+    image: image10,
+    tech: 'ReactJS, TailwindCSS',
+    github: 'https://github.com/giorgio324/tailwind-website',
+    netlify: 'https://tailwindjadoo.netlify.app/',
+    description: 'Travel website made with tailwindcss for the first time',
   },
   {
     name: 'Dashboard',
@@ -58,7 +76,7 @@ export const ProjectList = [
     github: 'https://github.com/giorgio324/developIT',
     netlify: 'https://develop-it.netlify.app/',
     description:
-      'After I learned basics of javaScript and DOM I wanted to add some functionality to my website',
+      'After learning the basics of javaScript and DOM I wanted to add some functionality to my website',
   },
   {
     name: 'Awesomecamp',
@@ -76,14 +94,5 @@ export const ProjectList = [
     netlify: 'https://huddle-styled-component.netlify.app/',
     description:
       'In this project I used styled components for the first time and build a static single page website',
-  },
-  {
-    name: 'Github User Search',
-    image: image9,
-    tech: 'ReactJS, Styled Components',
-    github: 'https://github.com/giorgio324/github-user-search',
-    netlify: 'https://search-github-user-frontend.netlify.app/',
-    description:
-      'made a github user search app with login functionality, it uses github api to get data and display it to the user, this project also has a dark mode setting',
   },
 ];
