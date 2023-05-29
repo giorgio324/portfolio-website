@@ -71,7 +71,7 @@ const Experience = () => {
           <h3 className='vertical-timeline-element-title'>
             Learning Modern JavaScript And React
           </h3>
-          <p>Currently I Am Learning ReactJS and Build Projects With it</p>
+          <p>Currently I Am Learning ReactJS and Building Projects With it</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

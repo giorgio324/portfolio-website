@@ -53,8 +53,8 @@ const Home = () => {
             <h3>languages and tools that i use for Front-End</h3>
           </div>
           <p>
-            ReactJS,Redux Toolkit, JavaScript, HTML, CSS, Bootstrap, Styled
-            Components, TailwindCss, Vite
+            ReactJS, Redux Toolkit, JavaScript, HTML, CSS, Bootstrap, Styled
+            Components, TailwindCss, Vite, React Hook Form,
           </p>
         </div>
 
