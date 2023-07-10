@@ -54,7 +54,7 @@ const Home = () => {
           </div>
           <p>
             ReactJS, Redux Toolkit, JavaScript, HTML, CSS, Bootstrap, Styled
-            Components, TailwindCss, Vite, React Hook Form,
+            Components, TailwindCss, Vite, React Hook Form, Firebase
           </p>
         </div>
 
